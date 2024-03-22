@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background: hsl(0, 0%, 95%);
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    
+}
+
+.card .cardz {
+    display: flex;
+    flex-direction: column;
+    padding: 1.3em 2em;
+    gap: 16px;
+    width: auto;
+    height: 310px;
+}
+
+.cardz .i {
+    width: 43px;
+    height: 30px;
+    margin-bottom: .4em;
+}
+
+.cardz h2 {
+    color: hsl(0, 0%, 95%);
+    font-size: 1.7em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cardz .p {
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-size: .7em;
+    font-weight: 400;
+}
+
+.cardz button {
+    outline: none;
+    border: none;
+    padding: 1em 0;
+    border-radius: 1.8em;
+    font-size: .75em;
+    margin-top: 1.4em;
+    margin-bottom: 1.3em;
+    background: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.cardz button:hover {
+    background: transparent;
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.card .card1 {
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: .6em;
+    border-bottom-left-radius: .6em;
+}
+
+.card1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.card .card2 {
+    background: hsl(184, 100%, 22%);
+}
+
+.card2 button {
+    color: hsl(184, 100%, 22%);
+}
+
+.card .card3 {
+    background: hsl(179, 100%, 13%);
+    border-top-right-radius: .6em;
+    border-bottom-right-radius: .6em;
+}
+
+.card3 button {
+    color: hsl(179, 100%, 13%);
+}
