@@ -28,8 +28,8 @@ body, html {
     flex-direction: column;
     padding: 1.3em 2em;
     gap: 16px;
-    width: auto;
-    height: 310px;
+    width: 500px;
+    height: 320px;
 }
 
 .cardz .i {
